@@ -10,6 +10,6 @@ def palindrome(value):
         result+=value[reverse]
 
     if result == value:
-        return str(value) + ' is a palindrome'
+        return f'{value} is a palindrome'
     else:
-        return str(value) + ' is not a palindrome'
+        return f'{value} is not a palindrome'
